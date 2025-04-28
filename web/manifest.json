@@ -1,6 +1,6 @@
 {
-    "name": "students_ai_app",
-    "short_name": "students_ai_app",
+    "name": "cse_pub_client",
+    "short_name": "cse_pub_client",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
