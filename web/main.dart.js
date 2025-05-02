@@ -37243,7 +37243,7 @@ A.HT.prototype={
 L(a){var s=null
 return new A.wZ(new A.xv(s),A.rB(s,B.l0,s,B.l0,new A.pT(B.k,s,s,s,s,s,s,s,s,s,s,s,s),B.k,"Retro",B.k,B.k,B.k,B.k,B.k,B.k,s),!1,s)}}
 A.xv.prototype={
-ao(){return new A.Bv(new A.Kd(B.xr,$.ap()),A.b([0,0,0],t.t),A.b([new A.eT("\uc0bc\uacb9\uc0b4 (180g)",0,6500,"assets/samg.jpg"),new A.eT("\uaecd\ub370\uae30 (200g)",1,5500,"assets/ggup.jpg"),new A.eT("\ube44\ube54\uba74",2,3000,"assets/bibim.jpg"),new A.eT("\ubd88\ub2ed\uac8c\ud2f0(2\uc778\ubd84)",3,5500,"assets/buldark.jpg"),new A.eT("\uc138\ud2b8A",4,5000,"assets/setA.png"),new A.eT("\uc138\ud2b8B",5,3500,"assets/setB.png")],t.ov),A.v(t.Dy,t.S))}}
+ao(){return new A.Bv(new A.Kd(B.xr,$.ap()),A.b([0,0,0],t.t),A.b([new A.eT("\uc0bc\uacb9\uc0b4 (100g)",0,6500,"assets/samg.jpg"),new A.eT("\uaecd\ub370\uae30 (100g)",1,5500,"assets/ggup.jpg"),new A.eT("\ube44\ube54\uba74",2,3000,"assets/bibim.jpg"),new A.eT("\ubd88\ub2ed\uac8c\ud2f0(2\uc778\ubd84)",3,5500,"assets/buldark.jpg"),new A.eT("\uc138\ud2b8A",4,5000,"assets/setA.png"),new A.eT("\uc138\ud2b8B",5,3500,"assets/setB.png")],t.ov),A.v(t.Dy,t.S))}}
 A.Bv.prototype={
 Pe(a){this.an(new A.afi(this,a))},
 ae4(a){this.an(new A.afq(this,a))},
