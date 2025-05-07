@@ -37586,7 +37586,7 @@ h=t.N
 i=A.w(h,t.nf)
 for(g=t.K,f=0;$.akY(),f<6;++f)i.m(0,"menu"+f,A.aj(["count",p.f[f],"checked",!1],h,g))
 e=A.aj(["income",k,"time",j,"name",l,"tableID",o,"menus",i,"paid",!1],h,t.z)
-o=A.eA("http://localhost:5000/orders/new")
+o=A.eA("'http://172.31.7.222:5000/orders/new'")
 h=A.aj(["Content-Type","application/json"],h,h)
 s=3
 return A.S(A.auI(o,B.br.F_(e,null),h),$async$wg)
@@ -37664,7 +37664,7 @@ A.afF.prototype={
 $0(){var s=0,r=A.P(t.H),q,p=this,o,n,m,l,k
 var $async$$0=A.K(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:o=B.c.jU(p.a.a.a)
-n=A.eA("http://localhost:5000/checkPassword")
+n=A.eA("http://172.31.7.222:5000/checkPassword")
 m=t.N
 l=A.aj(["Content-Type","application/json"],m,m)
 s=3
@@ -37785,7 +37785,7 @@ A.a4g.prototype={
 xB(){var s=0,r=A.P(t.vb),q,p,o
 var $async$xB=A.K(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.aI5(A.eA("http://127.0.0.1:5000/orders")),$async$xB)
+return A.S(A.aI5(A.eA("http://172.31.7.222:5000/orders")),$async$xB)
 case 3:o=b
 if(o.b===200){p=J.pl(B.br.en(A.anC(A.anf(o.e).c.a.h(0,"charset")).en(o.w)),new A.a4h(),t._5)
 q=A.a4(p,!0,p.$ti.i("ap.E"))
@@ -37796,7 +37796,7 @@ return A.O($async$xB,r)},
 zr(a){return this.alC(a)},
 alC(a){var s=0,r=A.P(t.H),q,p
 var $async$zr=A.K(function(b,c){if(b===1)return A.M(c,r)
-while(true)switch(s){case 0:q=A.eA("http://127.0.0.1:5000/orders/"+a.a)
+while(true)switch(s){case 0:q=A.eA("http://172.31.7.222:5000/orders/"+a.a)
 p=t.N
 p=A.aj(["Content-Type","application/json"],p,p)
 s=2
