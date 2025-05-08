@@ -37556,7 +37556,7 @@ q.c.aj(p).f.Sh()
 q.c.aj(p).f.I8(A.amy(null,null,null,null,null,B.a1,null,A.bT(a,null,null,null,null,null,null),null,B.lE,null,null,null,null,null,null,null,null,null))
 return A.N(null,r)}})
 return A.O($async$kb,r)},
-wf(){var s=0,r=A.P(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d
+wf(){var s=0,r=A.P(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$wf=A.K(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:if(p.gH3()===0){p.kb("\uba54\ub274\ub97c \uc120\ud0dd\ud558\uc138\uc694")
 s=1
@@ -37583,15 +37583,15 @@ j=h.agw(new A.oO(A.ara(j),A.arb(j)),!1)
 o=A.xN(B.c.jU(o.a.a),null)
 h=t.N
 i=A.w(h,t.nf)
-for(g=t.K,f=0;$.akY(),f<6;++f)i.m(0,"menu"+f,A.aj(["count",p.f[f],"checked",!1],h,g))
-e=A.aj(["income",k,"time",j,"name",l,"tableID",o,"menus",i,"paid",!1],h,t.z)
+for(g=t.K,f=0;$.akY(),f<6;++f){e=p.f[f]
+i.m(0,"menu"+f,A.aj(["count",e,"checked",!1],h,g))}d=A.aj(["income",k,"time",j,"name",l,"tableID",o,"menus",i,"paid",!1],h,t.z)
 o=A.eB("https://csepub.shop/orders/new")
 h=A.aj(["Content-Type","application/json"],h,h)
 s=3
-return A.T(A.auI(o,B.br.F_(e,null),h),$async$wf)
-case 3:d=b
-if(d.b===201){p.kb("\uc8fc\ubb38\uc774 \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!")
-p.ai(new A.afI(p))}else p.kb("\uc8fc\ubb38 \uc2e4\ud328: "+A.anC(A.anf(d.e).c.a.h(0,"charset")).en(d.w))
+return A.T(A.auI(o,B.br.F_(d,null),h),$async$wf)
+case 3:c=b
+if(c.b===201){p.kb("\uc8fc\ubb38\uc774 \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!")
+p.ai(new A.afI(p))}else p.kb("\uc8fc\ubb38 \uc2e4\ud328: "+A.anC(A.anf(c.e).c.a.h(0,"charset")).en(c.w))
 case 1:return A.N(q,r)}})
 return A.O($async$wf,r)},
 w5(a){return this.aaS(a)},
@@ -37649,7 +37649,7 @@ $S:251}
 A.afI.prototype={
 $0(){var s=this.a
 s.e.qm(B.M5)
-s.f=A.b([0,0,0],t.t)
+s.f=A.b([0,0,0,0,0,0],t.t)
 s.w=A.w(t.Dy,t.S)},
 $S:0}
 A.afG.prototype={
